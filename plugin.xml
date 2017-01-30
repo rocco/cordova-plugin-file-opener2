@@ -27,7 +27,7 @@
         </config-file>
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
           <provider
-            android:name="android.support.v4.content.FileProvider"
+            android:name="io.github.pwlin.cordova.plugins.fileopener2.FileProvider"
             android:authorities="$PACKAGE_NAME.opener.provider"
             android:exported="false"
             android:grantUriPermissions="true">
